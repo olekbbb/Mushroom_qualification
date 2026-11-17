@@ -39,4 +39,11 @@ The code generates two key graphs (for analytical purposes):
 1. **Feature Importances** - bar chart (horizontal) showing the most important features for the final model.
 2. **Decision Tree Plot** - visualization of tree decision rules (limited to 3 levels of depth for readability).
 
+## How to run project
+
+1. **Install libraries**
+   pip install -r requirements.txt
+2. **Run main script**
+   python mushroom_classification.py
+
 
