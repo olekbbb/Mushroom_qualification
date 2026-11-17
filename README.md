@@ -9,6 +9,11 @@ The main goal of this project is to build a machine learning model capable of cl
 * **Language:** Python
 * **Libraries:** `scikit-learn`, `pandas`, `matplotlib`, `ucimlrepo`
 
+## Data Source & License
+The Mushroom dataset used in this project is sourced from the UCI Machine Learning Repository. It is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the dataset for any purpose, provided that the appropriate credit is given.
+* Data Source: UCI Machine Learning Repository - Mushroom
+* License Details: CC BY 4.0
+
 ## Highlights
 1. **Data Leakage Protection**
    `SelectKBest` is encapsulated in a `Pipeline`, which ensures that the model selects the best features by learning only from the training data inside each cross-validation loop.
